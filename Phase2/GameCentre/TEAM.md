@@ -30,6 +30,51 @@ We will alternate taking notes during meetings. By default Michelle will be the 
 * Chris Marcok: Chris Marcok
 * Michelle Luo: Michelle Luo
 
+## Contributions
+### Chris Marcok
+* Loading of 2048 Games
+* Refactored CustomAdapter to be used by all 3 games
+* Refactored GestureDetectGridView to be used by  Minesweeper, Sliding tiles
+* Scoring for 2048
+* Code inspection fixes
+* Detecting a loss vs a win in Minesweeper
+* Clicking a bomb first in minesweeper bug fix
+* Added instructions for games
+* Created new gameCardItems for the new games
+* The user specific highscores load from scoreboard
+* Initially made sliding tiles make 1000 random moves to always ensure a solvable board
+* Updated Javadoc based on Phase 1 feedback
+
+### Steven Kang
+* Abstract model and controller classes for mvc pattern. 
+* Minesweeper board and controller implementations. 
+* Minesweeper board and controller unit tests.
+* 2048 board unit tests.
+* Board and tile refactoring.
+
+### Weiran Gu
+* Refactored Settings into GameFactory
+* Refactored NewGameActivity to accept GameFactory instead of Settings
+* Added multiple save file functionality
+* Improved undo button UI
+* Fixed serialization of SlidingTiles
+* Created SlidingTiles unit tests
+* Refactored BoardManager so that it would work with 2048
+* Added SlidingTiles algorithm to generate solvable boards.
+
+### Michelle Luo
+* Created the 2048 game(Controller and made factory support multiple board sizes, generated board, figuring out UI)
+* Refactored most classes with code smells using the code inspection.
+* Created GameCardItems to modularize items in the Game Centre Activity (Game selection menu)
+
+### Thomas Liu
+* Implemented minesweeper 
+* Implemented 2048 swiping algorithm
+* Slid my tiles into chris's dms
+* Designed the Ui images
+* Seriazible
+ 	
+
 ## Team Meeting:
 
 ## October 22, 2018

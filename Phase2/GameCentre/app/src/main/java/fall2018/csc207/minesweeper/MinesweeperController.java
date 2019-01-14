@@ -45,7 +45,7 @@ public class MinesweeperController extends BoardController<MinesweeperBoard> {
         }
         else if (currTile.getId() == MinesweeperTile.BLANK_TILE && !currTile.isFlagged()) {
             gameState.revealSurroundingBlanks(row, col);
-        }
+    }
 
         if (!currTile.isFlagged()) {
             gameState.revealTile(row, col);
